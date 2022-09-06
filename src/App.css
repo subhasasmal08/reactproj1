@@ -65,6 +65,7 @@
   height: 303px;
   padding: 162px 103px 95px 83px;
   position: absolute;
+  z-index: 10;
 }
 .item5 {
   font-family: "Roboto", sans-serif;
@@ -84,6 +85,19 @@
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   position: relative;
+  outline: none;
+}
+
+.empty{
+  border: 1px solid red !important;
+}
+.demo{
+  background-color: blue;
+}
+
+.font{
+  color: red;
+  font-size: 12px;
 }
 
 .password {
